@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+  body{
+    background: #584D67;
+    font-family: 'Orbitron', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+.parentDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 6em;
+    height: 100vh;
+    box-sizing: border-box;    
+  }
+  .secondRow{
+    text-align: center;
+  }
+  .parentDiv .firstRow {    
+     
+  display: block;
+  text-align: center;
+  font-size: 2em; 
+  border:1px solid transparent; 
+  transition: all .5s;
+  border-radius: 7px;
+  }
+
+  .parentDiv .firstRow:hover{
+      cursor:pointer;
+      border:1px solid #fff;
+  }
+
+ 
